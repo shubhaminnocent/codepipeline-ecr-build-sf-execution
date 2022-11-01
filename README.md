@@ -1,4 +1,4 @@
-# CI/CD Pipeline for deploying custom Sagemaker ML models using AWS SAM and Step Functions
+# CI/CD Pipeline for deploying custom Sagemaker ML models using AWS SAM and Step Functions hello
 Automating the build and deployment of machine learning models is an important step in creating production ready machine learning services. Models need to be retrained and deployed when code and/or data are updated. This project provides an overview on use of Step Functions native service integrations with Sagemaker to train, deploy ML models, test results, and finally expose an inference endpoint using API Gateway and Lambda function. This Step Function also provides a way to wait for human approval, before the state transitions can progress towards final ML Model Inference endpoints configurations and deployment.
 
 ## Architecture
